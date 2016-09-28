@@ -1,0 +1,30 @@
+{
+  "name": "t-hotel-payment-page",
+  "description": "Page component for hotel payment",
+  "main": "t-hotel-payment-page.html",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.4.0",
+    "iron-flex-layout": "polymerelements/iron-flex-layout#^1.3.1",
+    "t-text-container": "travelnxtelements/t-text-container#^1.1.2",
+    "t-notify": "atomelements/t-notify#^1.1.1",
+    "t-address": "travelnxtelements/t-address#^1.1.5",
+    "t-creditcard": "travelnxtelements/t-creditcard#^1.2.6",
+    "t-checkbox": "atomelements/t-checkbox#^1.1.3",
+    "t-button": "atomelements/t-button#^1.2.0",
+    "t-section-header": "atomelements/t-section-header#^1.0.4",
+    "t-sessionstorage": "travelnxtelements/t-sessionstorage#^1.0.3",
+    "t-shared-lib": "travelnxtelements/t-shared-lib#^1.0.0",
+    "t-loader": "atomelements/t-loader#^1.1.4",
+    "t-policy": "travelnxtelements/t-policy#^1.0.7",
+    "t-behavior": "travelnxtelements/t-behavior#^1.0.1",
+    "t-hotel-itinerary-details": "travelnxtelements/t-hotel-itinerary-details#master",
+    "t-hotel-translator": "travelnxtelements/t-hotel-translator#master",
+    "t-faredetails": "travelnxtelements/t-faredetails#^1.1.7"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^1.0.0",
+    "web-component-tester": "^4.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+  }
+}
