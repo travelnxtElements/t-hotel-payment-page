@@ -436,7 +436,7 @@
 
                     this.bookRequest = {
                         itinerary: this.itinerary,
-                        passengerInfo: this.passengerInfo,
+                        passengerInfo: Object.assign({}, this.passengerInfo),
                         payment: this._getCreditCardInfo(),
                         childAges: this.searchCriteria.childAges
                     }        
